@@ -9,7 +9,7 @@
         <img
           :src="kutip"
           alt="Tanda Kutip"
-          class="absolute top-2 right-4 z-0"
+          class="absolute top-8 right-14 z-0"
         />
         <CardStudent :student-data="dataStudent[0]" />
       </div>
