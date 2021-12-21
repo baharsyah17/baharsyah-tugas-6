@@ -6,6 +6,11 @@
       <div
         class="relative bg-purple-600 text-white p-8 rounded-lg lg:col-span-2"
       >
+        <img
+          :src="kutip"
+          alt="Tanda Kutip"
+          class="absolute top-2 right-4 z-0"
+        />
         <card-student :student-data="dataStudent[0]" />
       </div>
       <div class="relative bg-gray-600 text-white p-8 rounded-lg">
