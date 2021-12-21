@@ -11,21 +11,21 @@
           alt="Tanda Kutip"
           class="absolute top-2 right-4 z-0"
         />
-        <card-student :student-data="dataStudent[0]" />
+        <CardStudent :student-data="dataStudent[0]" />
       </div>
       <div class="relative bg-gray-600 text-white p-8 rounded-lg">
-        <card-student :student-data="dataStudent[1]" />
+        <CardStudent :student-data="dataStudent[1]" />
       </div>
       <div class="relative bg-white text-black p-8 rounded-lg lg:row-start-2">
-        <card-student :student-data="dataStudent[2]" />
+        <CardStudent :student-data="dataStudent[2]" />
       </div>
       <div class="relative bg-black text-white p-8 rounded-lg lg:col-span-2">
-        <card-student :student-data="dataStudent[3]" />
+        <CardStudent :student-data="dataStudent[3]" />
       </div>
       <div
         class="relative bg-white text-black p-8 rounded-lg lg:row-span-2 lg:row-start-1 lg:col-start-4"
       >
-        <card-student :student-data="dataStudent[4]" />
+        <CardStudent :student-data="dataStudent[4]" />
       </div>
     </div>
   </div>
